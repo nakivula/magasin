@@ -1,0 +1,177 @@
+body, * {
+    margin: 0; /* marge exterieur*/
+    padding: 0; /* marge interieur*/
+}
+
+.header {
+    padding: 10px 50px;
+    background-color: rgb(18, 128, 172);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.header .logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.header h1 {
+    margin-left: 10px;
+}
+
+.header .nav ul {
+    display: flex;
+}
+
+.header .nav ul li {
+    list-style-type: none;
+    color: white;
+    font-family: Arial;
+    padding: 0 10px;
+}
+
+.header .nav ul li:hover {
+    font-weight: bold;
+    color: yellow;
+    cursor: pointer;
+}
+
+.banner .container {
+    background-color: rgb(194, 210, 231);
+    padding: 10px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    padding: 0 100px;
+}
+.button {
+    background-color: white;
+    border: 1px solid transparent;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 40px;
+}
+.button:hover {
+    background-color: transparent;
+    border: 1px solid black;
+}
+
+.banner .container .item2 {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
+
+.banner .container .imgBanner {
+    width: 200px;
+    height: auto;
+}
+
+.main {
+    text-align: center;
+}
+
+.main .section {
+    padding: 70px 30px;
+}
+
+.main .aprops {
+    background-color: rgb(244, 232, 255);
+}
+
+.main .service {
+    background-color: rgb(187, 231, 245);
+}
+
+
+.main .contact {
+    background-color: rgb(245, 230, 187);
+}
+
+
+.main .section h2 {
+    font-weight: bold;
+}
+
+
+/* Debut footer styles */
+.footer {
+    background-color: rgb(18, 128, 172);
+    padding: 90px 30px;
+}
+.footer .content {
+    display: flex;
+    justify-content: space-around;
+}
+.footer .col-1 img {
+    width: 100px;
+    height: auto;
+}
+
+.footer ul li {
+    list-style: none;
+    margin-block: 10px;
+}
+
+
+.footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+.footer h3 {
+    text-decoration: underline;
+}
+
+
+.main .equipe {
+    background-color: rgb(229, 245, 224);
+}
+.main .equipe .container {
+    display: flex;
+    justify-content: center;
+}
+
+.main .equipe .container {
+    display: flex;
+    margin-top: 20px;
+}
+
+.main .equipe .container .content {
+    display: flex;
+}
+
+.main .equipe .container .col {
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 0 10px;
+}
+.main .equipe .container .col .imgContain {
+    width: 80px;
+    height: auto;
+    border-radius: 50%;
+    border: 1px solid rgb(155, 232, 161);
+    padding: 10px;
+    margin-block: 10px;
+}
+
+.main .equipe .container .col .imgContain img {
+    width: 100%;
+    height: 100%;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 30px;
+    width: 100%;
+}
